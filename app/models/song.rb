@@ -1,5 +1,9 @@
 class Song < ActiveRecord::Base
   belongs_to :artist
+
+  validates: :title, :artist_id, presence: true
+  validates: :title, length {minimum: 2}, uniqueness: true
+
 end
 
 # == Schema Information
