@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  genre: MyString
+
+two:
+  genre: MyString
+
+# == Schema Information
+#
+# Table name: genres
+#
+#  id         :integer          not null, primary key
+#  genre      :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
